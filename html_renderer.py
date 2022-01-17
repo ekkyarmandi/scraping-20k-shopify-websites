@@ -5,7 +5,7 @@ import BeautifulSoup
 import json, re
 
 # import custom functions library
-import crawler
+import scraper
 
 # open the browser
 browser = Chrome("./driver/chromedriver.exe")
@@ -31,6 +31,6 @@ for url in websites:
     except: language = nan
 
     # collecting social media accounts
-    social_media = crawler.find_all_social_media(html)
+    social_media = scraper.find_all_social_media(html)
 
     # 
