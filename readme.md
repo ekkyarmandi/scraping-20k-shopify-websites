@@ -15,7 +15,7 @@ This scraping porject process is made up of 5 steps:
 6. [Gather everything and write it out as excel (.xlsx) file](#step-6-write-to-excel-using-pandas)
 
 ### Step 1: Render HTML using Python Selenium
-I have tried to use `aiohttp` to render 20K websites at once, but it seems some websites with JavaScript can not rendered completely. That's why I rerender everything using python selenium instead. You can check everything on my code [here]().
+I have tried to use `aiohttp` to render 20K websites at once, but it seems some websites with JavaScript can not rendered completely. That's why I rerender everything using python selenium instead. You can check everything on my code [here](html_renderer.py).
 
 ### Step 2: Look for "klaviyo" strings and collecting the websites social media accounts
 After the html rendered successfully. The next step I do is to looks for "klaviyo" strings and look for social media accounts from each the html using regular expresssion (link to github repo with monster regex). * I'm not really sure what is the strings accociated with, I should read more about that
