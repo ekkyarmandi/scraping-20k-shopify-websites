@@ -11,8 +11,8 @@ This scraping porject process is made up of 5 steps:
 2. [Look for "klaviyo" strings and collecting social media accounts](#step-2-look-for-klaviyo-strings-and-collecting-the-websites-social-media-accounts)
 3. [Look for "learnq.push" strings](#step-3-look-for-learnqpush-strings)
 4. [Collecting Facebook page likes and followers](#step-4-collecting-facebook-page-likes--followers-count)
-5. [Collecting Instagram followers]()
-6. [Gather everything and write it out as excel (.xlsx) file]()
+5. [Collecting Instagram followers](#step-5-collecting-instagram-followers-count)
+6. [Gather everything and write it out as excel (.xlsx) file](#step-6-write-to-excel-using-pandas)
 
 ### Step 1: Render HTML using Python Selenium
 I have tried to use `aiohttp` to render 20K websites at once, but it seems some websites with JavaScript can not rendered completely. That's why I rerender everything using python selenium instead. You can check everything on my code [here]().
@@ -30,4 +30,4 @@ Since I'm not use any Facebook API (not really sure it will works well), I decid
 In this step I use Instagram public API for collecting the instagram account followers count.
 
 ### Step 6: Write to Excel using Pandas
-After all the data was collected, the last step are turn the data as a `Pandas` `DataFrame` and then write it out as a excel file with .xslx extension.
+After all the data was collected, the last step are turn the data as a `Pandas` `DataFrame` and then write it out as an excel file with `.xslx` extension.
