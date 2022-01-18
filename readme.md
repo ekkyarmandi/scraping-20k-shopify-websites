@@ -1,5 +1,7 @@
 # Scraping 20K Shopify Websites
 
+*starting at: 2 Jan 2022*
+
 This project is about scraping 20K shopify websites. The actuall task is to find some strings on the html and collecting social media account such as facebook and instagram including its likes/followers count.  
 
 It takes more than one weeks to work on this project. The difficulty of this project is on look for "learnq.push" and collecting social media likes/followers count. The final result of this project is writed on a spreadsheet file.  
